@@ -1,5 +1,5 @@
 ---
-# 🩸 DonorLink
+# DonorLink
 
 **DonorLink** is a JavaFX-based desktop application designed to enhance and streamline the blood donation process. It connects donors, recipients, hospitals, and donation centers through an intuitive interface backed by a robust MySQL database.
 
