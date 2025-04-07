@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="424.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="34.0" prefWidth="750.0" style="-fx-background-color: crimson;">
+         <children>
+            <Button mnemonicParsing="false" text="Home">
+               <HBox.margin>
+                  <Insets left="10.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="MS Reference Sans Serif" size="12.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" text="Donors">
+               <HBox.margin>
+                  <Insets left="10.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="MS Reference Sans Serif" size="12.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" text="Recepients">
+               <HBox.margin>
+                  <Insets left="10.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="MS Reference Sans Serif" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="279.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../pictureBox5.Image.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="188.0" prefHeight="23.0" prefWidth="750.0" text="Camps Details" textAlignment="CENTER" textFill="BROWN">
+         <font>
+            <Font name="Century Gothic Bold" size="18.0" />
+         </font>
+      </Label>
+      <HBox fillHeight="false" layoutX="14.0" layoutY="248.0" prefHeight="138.0" prefWidth="230.0" style="-fx-background-color: mistyrose;" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="506.0" AnchorPane.topAnchor="248.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="18.0" prefWidth="202.0" text="Update Camp Status" textAlignment="CENTER" textFill="BROWN" HBox.hgrow="NEVER">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <Label layoutX="20.0" layoutY="290.0" text="Camp ID:">
+         <font>
+            <Font name="MS Reference Sans Serif" size="12.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="UpdateCampID" layoutX="85.0" layoutY="284.0" prefHeight="18.0" prefWidth="126.0" />
+      <Label layoutX="20.0" layoutY="335.0" text="Status">
+         <font>
+            <Font name="MS Reference Sans Serif" size="12.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="CampStatus" layoutX="70.0" layoutY="330.0" prefHeight="26.0" prefWidth="59.0" />
+      <Button fx:id="UpdateCamp" layoutX="160.0" layoutY="330.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="59.0" text="Update" />
+      <ImageView fitHeight="162.0" fitWidth="200.0" layoutX="266.0" layoutY="247.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../pictureBox6.Image.gif" />
+         </image>
+      </ImageView>
+      <HBox fillHeight="false" layoutX="481.0" layoutY="248.0" prefHeight="162.0" prefWidth="267.0" style="-fx-background-color: mistyrose;">
+         <children>
+            <Label alignment="CENTER" prefHeight="18.0" prefWidth="258.0" text="Add New Camp" textAlignment="CENTER" textFill="BROWN" HBox.hgrow="NEVER">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <Label layoutX="480.0" layoutY="275.0" text="Camp Address: ">
+         <font>
+            <Font name="MS Reference Sans Serif" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="480.0" layoutY="310.0" text="City: ">
+         <font>
+            <Font name="MS Reference Sans Serif" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="480.0" layoutY="345.0" text="Status">
+         <font>
+            <Font name="MS Reference Sans Serif" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="NewCampAddress" layoutX="580.0" layoutY="270.0" prefHeight="26.0" prefWidth="148.0" />
+      <TextField layoutX="580.0" layoutY="305.0" prefHeight="23.0" prefWidth="107.0" />
+      <ChoiceBox fx:id="addStatusBox" layoutX="580.0" layoutY="340.0" prefHeight="26.0" prefWidth="82.0" />
+      <Button fx:id="addCampButton" layoutX="660.0" layoutY="380.0" mnemonicParsing="false" text="Add Camp">
+         <font>
+            <Font name="MS Reference Sans Serif" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

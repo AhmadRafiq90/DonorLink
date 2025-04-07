@@ -1,0 +1,7 @@
+.Text-Field {
+    -fx-prompt-text-fill: maroon;
+}
+
+.PField {
+    -fx-prompt-text-fill: maroon;
+}
